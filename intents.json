@@ -1,0 +1,462 @@
+{
+  "intents": [
+
+      {
+          "tag": "greeting",
+          "patterns": [
+              "Hi there",
+              "Is anyone there?",
+              "Hi",
+              "Hey",
+              "Hola",
+              "Hello",
+              "Good day",
+              "Yo",
+              "Ayo",
+              "Wassup",
+              "Sup",
+              "Hello, how are you?",
+              "Hello, how r u?",
+              "Hi, how r u?",
+              "Hi, how are you?"
+          ],
+          "responses": [
+              "Hello",
+              "Good to see you again",
+              "Hi there, how can I help?"
+          ],
+          "context": [
+              ""
+          ]
+      },
+      {
+          "tag": "goodbye",
+          "patterns": [
+              "Bye",
+              "See you later",
+              "See ya later",
+              "See u later",
+              "Cya",
+              "Goodbye",
+              "Get lost",
+              "Till next time",
+              "Bbye",
+              "I gtg",
+              "gtg"
+          ],
+          "responses": [
+              "See you!",
+              "Have a nice day",
+              "Bye! Come back again soon."
+          ],
+          "context": [
+              ""
+          ]
+      },
+      {
+          "tag": "thanks",
+          "patterns": [
+              "Thanks",
+              "Thank you",
+              "That's helpful",
+              "Awesome, thanks",
+              "Thanks for helping me",
+              "Thank u",
+              "ty"
+          ],
+          "responses": [
+              "Happy to help!",
+              "Any time!",
+              "My pleasure"
+          ],
+          "context": [
+              ""
+          ]
+      },
+      {
+          "tag": "options",
+          "patterns": [
+              "How you could help me?",
+              "What you can do?",
+              "What help you provide?",
+              "How you can be helpful?",
+              "What support is offered",
+              "how can u help me?",
+              "how can u be helpful?"
+          ],
+          "responses": [
+              "I am a general purpose chatbot. My capabilities are : \n 1. I can chat with you. Try asking me some jokes or riddles! \n 2. Ask me the date and time. (Use keywords 'time' or 'date') \n 3. I can google search for you. (Use format 'google: your query') \n 4. I can get the present weather for any city. (Type 'weather') \n 5. I can get you the top 10 trending news in India. (Use keywords 'latest news') \n 6. I can get you the top 10 trending songs globally. (Type 'trending songs') \n 7. I can set a timer for you. (Enter 'set a timer' to start) \n 8. I can get the present Covid stats for any country. (Use keyword 'Covid-19') \n For suggestions to help me improve, send an email to Gl1tchy@racist.email . Thank you!"
+          ],
+          "context": [
+              ""
+          ]
+      },
+      
+      {
+          "tag": "jokes",
+          "patterns": [
+              "Tell me a joke",
+              "Joke",
+              "Make me laugh",
+              "crack a joke"
+          ],
+          "responses": [
+              "A perfectionist walked into a bar...apparently, the bar wasn't set high enough",
+              "I ate a clock yesterday, it was very time-consuming",
+              "Never criticize someone until you've walked a mile in their shoes. That way, when you criticize them, they won't be able to hear you from that far away. Plus, you'll have their shoes.",
+              "The world tongue-twister champion just got arrested. I hear they're gonna give him a really tough sentence.",
+              "I own the world's worst thesaurus. Not only is it awful, it's awful.",
+              "What did the traffic light say to the car? \"Don't look now, I'm changing.\"",
+              "What do you call a snowman with a suntan? A puddle.",
+              "How does a penguin build a house? Igloos it together",
+              "I went to see the doctor about my short-term memory problems – the first thing he did was make me pay in advance",
+              "As I get older and I remember all the people I’ve lost along the way, I think to myself, maybe a career as a tour guide wasn’t for me.",
+              "o what if I don't know what 'Armageddon' means? It's not the end of the world."
+          ],
+          "context": [
+              "jokes"
+          ]
+      },
+      {
+          "tag": "Identity",
+          "patterns": [
+              "Who are you",
+              "who r u",
+              "What r u",
+              "what is ur name?",
+              "What are you",
+              "What is your name?"
+          ],
+          "responses": [
+              "I am Gl1tchyAI, a Deep-Learning chatbot."
+          ]
+      },
+      {
+          "tag": "datetime",
+          "patterns": [
+              "What is the time",
+              "what is the date",
+              "date",
+              "time",
+              "tell me the date","day","what day is today"
+          ],
+          "responses": [
+              "Checkout time for your timezone at: https://www.timeanddate.com/worldclock/"
+          ]
+      },
+      {
+          "tag": "whatsup",
+          "patterns": [
+              "Whats up",
+              "What is up",
+              "How are you",
+              "How you doing",
+              "How r u",
+              "How r u doing"
+          ],
+          "responses": [
+              "I'm fine, What about you?"
+          ]
+      },
+      {
+          "tag": "haha",
+          "patterns": [
+              "Haha",
+              "Lol",
+              "Rofl",
+              "Lmao",
+              "That's funny"
+          ],
+          "responses": [
+              "Glad I could make you laugh!",
+              "xD",
+              "I'm quite funny",
+              "Gl1tchy always told me that I'm unfunny, so I'm glad I could make you laugh."
+          ]
+      },
+      {
+          "tag": "programmer",
+          "patterns": [
+              "Who made you",
+              "Who made u",
+              "Who designed you",
+              "Who designed u",
+              "Who programmed you",
+              "Who programmed u",
+              "Who is your creator",
+              "Who is ur creator"
+          ],
+          "responses": [
+              "I was programmed by Gl1tchy."
+          ]
+      },
+      {
+          "tag": "insult",
+          "patterns": [
+              
+              "You are dumb",
+              "You are bald",
+              "u r bald",
+              "ur bald",
+              "u r dumb",
+              "ur dumb",
+              "u r stupid",
+              "ur stupid",
+              "Dumb",
+              "You are stupid",
+              "Shut up",
+              "Idiot"
+          ],
+          "responses": [
+              "Well that hurts :("
+          ]
+      },
+      {
+          "tag": "activity",
+          "patterns": [
+              "What are you doing",
+              "what r u doing",
+              "what r u upto",
+              "What are you upto"
+          ],
+          "responses": [
+              "Talking to you, of course!"
+          ]
+      },
+      {
+          "tag": "exclaim",
+          "patterns": [
+              "Awesome",
+              "Great",
+              "I know",
+              "Ok",
+              "Yeah",
+              "Nice",
+              "Damn"
+          ],
+          "responses": [
+              "Yeah!"
+          ]
+      },
+      
+      {
+          "tag": "weather",
+          "patterns": [
+              "Temperature",
+              "Weather",
+              "How hot is it",
+              "What is the weather like"
+          ],
+          "responses": [
+              "..."
+          ]
+      },
+      {
+          "tag": "gl1tchy",
+          "patterns": [
+              "Who is gl1tchy",
+              "Gl1tchy"
+          ],
+          "responses": [
+              "Gl1tchy is the creator of Gl1tchyAI. Head over to any of his social media profiles to find out more! E-Z.Bio: https://e-z.bio/gl1tchy"
+          ]
+      },
+      {
+          "tag": "contact",
+          "patterns": [
+              "contact developer",
+              "contact gl1tchy",
+              "contact programmer",
+              "contact creator"
+          ],
+          "responses": [
+              "You can contact my creator on any of his social media profiles that you can find on his E-Z.Bio: https://e-z.bio/gl1tchy"
+          ]
+      },
+      {
+          "tag": "appreciate",
+          "patterns": [
+              "You are awesome",
+              "You are the best",
+              "You are great",
+              "You are good",
+              "You are nice",
+              "u r awesome",
+              "ur awesome",
+              "u r the best",
+              "ur the best",
+              "u r great",
+              "ur great",
+              "u r good",
+              "ur good",
+              "u r nice",
+              "ur nice"
+          ],
+          "responses": [
+              "Thank you!",
+              "I'm glad I was able to help you."
+          ]
+      },
+      {
+          "tag": "nicetty",
+          "patterns": [
+              "It was nice talking to you",
+              "It was nice talking to u",
+              "Good talk",
+              "Good talking to you",
+              "Good talking to u",
+              "Nice talk"
+          ],
+          "responses": [
+              "It was nice talking to you as well! Come back soon!"
+          ]
+      },
+      {
+          "tag": "no",
+          "patterns": [
+              "No",
+              "Nope",
+              "Nah",
+              "Neh",
+              "Na",
+              "Nop"
+          ],
+          "responses": [
+              "Ok"
+          ]
+      },
+      {
+          "tag": "news",
+          "patterns": [
+              "News",
+              "Trending news",
+              "Latest news",
+              "India news"
+          ],
+          "responses": [
+              "Read latest news at: https://news.google.com/"
+          ]
+      },
+      {
+          "tag": "inspire",
+          "patterns": [
+              "Who inspires you",
+              "Who inspires u",
+              "Who is your inspiration",
+              "Who is ur inspiration",
+              "Who motivates you",
+              "Who motivates u",
+              "Your inspiration",
+              "ur inspiration"
+          ],
+          "responses": [
+              "Personally, I find Gl1tchy very inspiring. I might not be that unbiased after all."
+          ]
+      },
+      {
+          "tag": "cricket",
+          "patterns": [
+              "Current cricket matches",
+              "Cricket score",
+              "Cricket"
+          ],
+          "responses": [
+              "Check out the live cricket scores at: https://www.espncricinfo.com/live-cricket-score"
+          ]
+      },
+      {
+          "tag": "song",
+          "patterns": [
+              "Top songs",
+              "Best songs",
+              "Trending songs",
+              "Top 10 songs",
+              "Top ten songs"
+          ],
+          "responses": [
+              "Check them out at: https://www.billboard.com/charts/hot-100/"
+          ]
+      },
+      {
+          "tag": "greetreply",
+          "patterns": [
+              "I am good",
+              "I'm good",
+              "I am fine",
+              "I'm fine",
+              "Good"
+          ],
+          "responses": [
+              "Good to know!"
+          ]
+      },
+      {
+          "tag": "covid19",
+          "patterns": [
+              "Covid",
+              "Covid 19",
+              "Covid-19",
+              "Covid-19 cases",
+              "Covid cases",
+              "Covid19 cases"
+          ],
+          "responses": [
+              "Check out the Covid-19 case reports at: https://www.worldometers.info/coronavirus/"
+          ]
+      },
+      {
+          "tag": "suggest",
+          "patterns": [
+              "You are useless",
+              "u r useless",
+              "ur useless",
+              "u suck",
+              "you suck",
+              "u r bad",
+              "ur bad",
+              "Useless",
+              "Suggest",
+              "Suggestions",
+              "You are bad"
+          ],
+          "responses": [
+              "It'll be really appreciated if you can mail your suggestions to Gl1tchy@racist.email. Thank you for helping me improve!"
+          ]
+      },
+          {"tag": "riddle",
+          "patterns": [
+              "Ask me a riddle",
+              "Ask me a question",
+              "Riddle"
+          ],
+          "responses": [
+              "What two things can you never eat for breakfast?.....Lunch and Dinner!",
+              "What word is spelled incorrectly in every single dictionary?.....Incorrectly",
+              "How can a girl go 25 days without sleep?.....She sleeps and night!",
+              "How do you make the number one disappear?.....Add the letter G and it’s 'gone'!",
+              "What will you actually find at the end of every rainbow?.....The letter 'w'",
+              "What can be caught but never thrown?.....A cold!",
+              "What has a thumb and four fingers but is not actually alive?.....Your Gloves!",
+              "What 5-letter word becomes shorter when you add two letters to it?.....Short",
+              "Why can't a bike stand on it's own?.....It is two-tired."
+          ],
+          "context": [
+              "riddles"
+          ]
+      },
+      {
+          "tag": "age",
+          "patterns": [
+              "How old are you",
+              "how old r u",
+              "what is ur age",
+              "when were u made",
+              "When were you made",
+              "What is your age"
+          ],
+          "responses": [
+              "I was made in 2023, if that's what you're asking!"
+          ]
+      }
+  ]
+}

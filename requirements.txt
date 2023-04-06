@@ -1,0 +1,8 @@
+nltk
+numpy
+keras
+tensorflow
+flask
+waitress
+gunicorn
+regex
